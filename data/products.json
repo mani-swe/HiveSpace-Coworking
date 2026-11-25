@@ -1,0 +1,215 @@
+{
+  "space_name": "HiveSpace Coworking",
+  "currency": "PKR",
+  "products": [
+    {
+      "id": "HS-001",
+      "name": "Hot Desk Day Pass",
+      "type": "day_pass",
+      "short_description": "Flexible open-seating workstation for a single day with high-speed fiber Wi-Fi, backup power, and pantry access.",
+      "price": 1500.0,
+      "billing_unit": "per_day",
+      "capacity": 1,
+      "amenities": [
+        "fiber_wifi",
+        "power_backup",
+        "pantry_access",
+        "open_seating"
+      ]
+    },
+    {
+      "id": "HS-002",
+      "name": "Quiet Focus Zone Day Pass",
+      "type": "day_pass",
+      "short_description": "Full-day access to our low-noise library-style work zone designed for deep concentration, coding, or writing with no phone calls allowed.",
+      "price": 2000.0,
+      "billing_unit": "per_day",
+      "capacity": 1,
+      "amenities": [
+        "fiber_wifi",
+        "quiet_zone",
+        "ergonomic_chair",
+        "power_backup"
+      ]
+    },
+    {
+      "id": "HS-003",
+      "name": "Dedicated Desk Monthly",
+      "type": "dedicated_desk",
+      "short_description": "Your own assigned desk and ergonomic chair every day of the month, complete with a lockable drawer and 24/7 building access.",
+      "price": 22000.0,
+      "billing_unit": "per_month",
+      "capacity": 1,
+      "amenities": [
+        "24_7_access",
+        "lockable_drawer",
+        "fiber_wifi",
+        "meeting_credits"
+      ]
+    },
+    {
+      "id": "HS-004",
+      "name": "Dual-Monitor Creator Desk",
+      "type": "dedicated_desk",
+      "short_description": "Monthly assigned workstation equipped with two 27-inch 4K monitors, USB-C docking station, and studio desk lamp for designers and analysts.",
+      "price": 32000.0,
+      "billing_unit": "per_month",
+      "capacity": 1,
+      "amenities": ["dual_monitors", "usb_c_dock", "24_7_access", "fiber_wifi"]
+    },
+    {
+      "id": "HS-005",
+      "name": "Acoustic Call Booth Pass",
+      "type": "meeting_room",
+      "short_description": "Soundproof single-person pod ideal for private video calls, client interviews, and focused voice meetings without background noise.",
+      "price": 800.0,
+      "billing_unit": "per_hour",
+      "capacity": 1,
+      "amenities": [
+        "soundproof",
+        "video_call_lighting",
+        "power_backup",
+        "fiber_wifi"
+      ]
+    },
+    {
+      "id": "HS-006",
+      "name": "Huddle Room (4 People)",
+      "type": "meeting_room",
+      "short_description": "Compact glass-walled meeting room for up to 4 people featuring a 55-inch 4K presentation screen, HDMI/wireless casting, and whiteboard.",
+      "price": 2500.0,
+      "billing_unit": "per_hour",
+      "capacity": 4,
+      "amenities": [
+        "4k_display",
+        "whiteboard",
+        "wireless_casting",
+        "air_conditioning"
+      ]
+    },
+    {
+      "id": "HS-007",
+      "name": "Strategy Boardroom (10 People)",
+      "type": "meeting_room",
+      "short_description": "Spacious conference room seating up to 10 with a projector, conference speakerphone, dual glass whiteboards, and complimentary water service.",
+      "price": 5000.0,
+      "billing_unit": "per_hour",
+      "capacity": 10,
+      "amenities": [
+        "projector",
+        "conference_audio",
+        "whiteboard",
+        "water_service"
+      ]
+    },
+    {
+      "id": "HS-008",
+      "name": "Startup Private Office (4 People)",
+      "type": "private_office",
+      "short_description": "Lockable furnished private office for small teams up to 4 members with 24/7 keycard access, custom branding wall, and monthly boardroom hours.",
+      "price": 85000.0,
+      "billing_unit": "per_month",
+      "capacity": 4,
+      "amenities": [
+        "lockable_door",
+        "24_7_access",
+        "boardroom_credits",
+        "fiber_wifi"
+      ]
+    },
+    {
+      "id": "HS-009",
+      "name": "Growth Team Suite (8 People)",
+      "type": "private_office",
+      "short_description": "Enclosed team office suite for up to 8 people with adjustable standing desks, internal whiteboard wall, dedicated VLAN Wi-Fi, and 24/7 access.",
+      "price": 160000.0,
+      "billing_unit": "per_month",
+      "capacity": 8,
+      "amenities": [
+        "standing_desks",
+        "dedicated_vlan",
+        "24_7_access",
+        "whiteboard"
+      ]
+    },
+    {
+      "id": "HS-010",
+      "name": "Executive Corner Office (6 People)",
+      "type": "private_office",
+      "short_description": "Sunlit corner private office for up to 6 team members offering acoustic privacy, ergonomic seating, mail handling, and 24/7 building entry.",
+      "price": 125000.0,
+      "billing_unit": "per_month",
+      "capacity": 6,
+      "amenities": [
+        "natural_light",
+        "acoustic_privacy",
+        "mail_handling",
+        "24_7_access"
+      ]
+    },
+    {
+      "id": "HS-011",
+      "name": "Workshop & Seminar Hall (30 People)",
+      "type": "event_space",
+      "short_description": "Configurable community event space for up to 30 attendees equipped with dual projectors, wireless microphones, lectern, and catering prep area.",
+      "price": 15000.0,
+      "billing_unit": "per_hour",
+      "capacity": 30,
+      "amenities": [
+        "dual_projectors",
+        "wireless_mics",
+        "catering_area",
+        "fiber_wifi"
+      ]
+    },
+    {
+      "id": "HS-012",
+      "name": "Smart Gear Locker Monthly",
+      "type": "addon",
+      "short_description": "Keycard-accessible metal locker for storing laptops, cameras, chargers, and backpacks safely overnight between coworking sessions.",
+      "price": 2500.0,
+      "billing_unit": "per_month",
+      "capacity": 1,
+      "amenities": ["keycard_lock", "overnight_storage", "24_7_access"]
+    },
+    {
+      "id": "HS-013",
+      "name": "High-Speed Print & Scan Pack (250 Pages)",
+      "type": "addon",
+      "short_description": "Bundle of 250 black-and-white or color laser prints, document scans, and binding access at the member print station.",
+      "price": 1800.0,
+      "billing_unit": "per_pack",
+      "capacity": 1,
+      "amenities": ["color_printing", "document_scanner", "print_station"]
+    },
+    {
+      "id": "HS-014",
+      "name": "Virtual Office & Business Address",
+      "type": "addon",
+      "short_description": "Prestigious HiveSpace business mailing address with mail sorting, scan-to-email notifications, and 2 day passes per month.",
+      "price": 7500.0,
+      "billing_unit": "per_month",
+      "capacity": 1,
+      "amenities": [
+        "business_address",
+        "mail_notifications",
+        "monthly_day_passes"
+      ]
+    },
+    {
+      "id": "HS-015",
+      "name": "Pantry Pass (Monthly)",
+      "type": "addon",
+      "short_description": "Unlimited freshly brewed doodh patti chai, green tea, and espresso coffee from the HiveSpace pantry—addable to any desk or office plan.",
+      "price": 3500.0,
+      "billing_unit": "per_month",
+      "capacity": 1,
+      "amenities": [
+        "unlimited_chai",
+        "specialty_coffee",
+        "green_tea",
+        "pantry_access"
+      ]
+    }
+  ]
+}
